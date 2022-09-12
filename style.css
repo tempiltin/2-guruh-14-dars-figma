@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap'); */
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
 
 }
-p{
+body{
+    height: 100vh;
+}
+/* p{
     font-size: 32px;
     font-family: 'Ms Madi', cursive;
 }
@@ -19,5 +22,14 @@ h1 .iconh1{
     background-color: yellowgreen;
     cursor: pointer;
     
+
+} */
+
+header nav ul li a{
+margin: 200px;
+    font-size: 18px;
+    padding: 10px 5px;
+    color: blue;
+    border: 2px solid blue;
 
 }
